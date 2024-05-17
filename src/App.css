@@ -1,0 +1,90 @@
+form{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUzJwxDdXmV5qtNLYzBJ0oEwJw4Rfke_PyvA&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: 200vh;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.137);
+}
+form h1{
+  margin-bottom: 10px;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+.caption{
+  font-size: 30 px;
+  margin-bottom: 40px;
+  color:gray;
+  text-align: center;
+
+}
+.input-section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+ 
+
+
+  
+}
+.input-section input{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+}
+.input-section input:focus{
+
+  border-bottom: 1px solid black
+ 
+}
+.input-section select{
+  border: 3px solid #ccc ;
+}
+.input-section label{
+  font-size: 16px;
+  font-weight: bold;
+}
+.radio-groups label{
+  margin: 0 5px;
+  font-size: 16px;
+  margin-bottom: 5px;
+
+}
+
+.dropdown-section label ,
+.radio-groups label{
+  margin-bottom: 12px;
+  margin-bottom: 5px;
+
+}
+.radio-groups .radio-button {
+  font-weight: normal;
+ 
+
+}
+form button {
+  width: 100%;
+  padding: 15px 0 ;
+  border: none;
+  background-color: orangered;
+  color: rgb(246, 245, 245);
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+}
+form button:hover{
+  background-color: purple;
+}
+.danger{
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
